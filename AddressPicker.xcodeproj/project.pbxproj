@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2244432A1F16101800868926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443291F16101800868926 /* main.m */; };
+		2244432D1F16101800868926 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244432C1F16101800868926 /* AppDelegate.m */; };
+		224443301F16101800868926 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244432F1F16101800868926 /* ViewController.m */; };
+		224443351F16101800868926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224443341F16101800868926 /* Assets.xcassets */; };
+		224443381F16101800868926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224443361F16101800868926 /* LaunchScreen.storyboard */; };
+		2244435E1F1613C400868926 /* SXMeJumpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244435A1F1613C400868926 /* SXMeJumpCell.m */; };
+		2244435F1F1613C400868926 /* SXPlainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244435C1F1613C400868926 /* SXPlainCell.m */; };
+		224443621F1613EC00868926 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443611F1613EC00868926 /* Address.m */; };
+		224443651F16142800868926 /* AddrObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443641F16142800868926 /* AddrObject.m */; };
+		2244436B1F16149200868926 /* AddressPickTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443681F16149200868926 /* AddressPickTableView.m */; };
+		2244436C1F16149200868926 /* AddressPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244436A1F16149200868926 /* AddressPickView.m */; };
+		224443711F1614B600868926 /* AddressPickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244436E1F1614B600868926 /* AddressPickCell.m */; };
+		224443761F16156000868926 /* NSObject+ObjectMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443751F16156000868926 /* NSObject+ObjectMap.m */; };
+		224443801F16199E00868926 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244437F1F16199E00868926 /* UIView+Common.m */; };
+		2244438A1F161A0300868926 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443831F161A0300868926 /* SVIndefiniteAnimatedView.m */; };
+		2244438B1F161A0300868926 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 224443851F161A0300868926 /* SVProgressHUD.bundle */; };
+		2244438C1F161A0300868926 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443871F161A0300868926 /* SVProgressHUD.m */; };
+		2244438D1F161A0300868926 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443891F161A0300868926 /* SVRadialGradientLayer.m */; };
+		224443901F16202300868926 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244438F1F16202300868926 /* UIView+Frame.m */; };
+		224443931F16209F00868926 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443921F16209F00868926 /* UILabel+Common.m */; };
+		224443971F1621E600868926 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 224443961F1621E600868926 /* NSString+Common.m */; };
+		22C0524F1F16256B00D99097 /* SXEditAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C0524E1F16256B00D99097 /* SXEditAddressCell.m */; };
+		22C052521F16270F00D99097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C052501F16270F00D99097 /* Main.storyboard */; };
+		22C0525C1F1643BA00D99097 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C052551F1643BA00D99097 /* TPKeyboardAvoidingCollectionView.m */; };
+		22C0525D1F1643BA00D99097 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C052571F1643BA00D99097 /* TPKeyboardAvoidingScrollView.m */; };
+		22C0525E1F1643BA00D99097 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C052591F1643BA00D99097 /* TPKeyboardAvoidingTableView.m */; };
+		22C0525F1F1643BA00D99097 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C0525B1F1643BA00D99097 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		224443251F16101800868926 /* AddressPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224443291F16101800868926 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2244432B1F16101800868926 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2244432C1F16101800868926 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2244432E1F16101800868926 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2244432F1F16101800868926 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		224443341F16101800868926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224443371F16101800868926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		224443391F16101800868926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224443591F1613C400868926 /* SXMeJumpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SXMeJumpCell.h; path = cells/SXMeJumpCell.h; sourceTree = "<group>"; };
+		2244435A1F1613C400868926 /* SXMeJumpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SXMeJumpCell.m; path = cells/SXMeJumpCell.m; sourceTree = "<group>"; };
+		2244435B1F1613C400868926 /* SXPlainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SXPlainCell.h; path = cells/SXPlainCell.h; sourceTree = "<group>"; };
+		2244435C1F1613C400868926 /* SXPlainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SXPlainCell.m; path = cells/SXPlainCell.m; sourceTree = "<group>"; };
+		224443601F1613EC00868926 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Address.h; path = models/Address.h; sourceTree = "<group>"; };
+		224443611F1613EC00868926 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = models/Address.m; sourceTree = "<group>"; };
+		224443631F16142800868926 /* AddrObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddrObject.h; path = models/AddrObject.h; sourceTree = "<group>"; };
+		224443641F16142800868926 /* AddrObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddrObject.m; path = models/AddrObject.m; sourceTree = "<group>"; };
+		224443671F16149200868926 /* AddressPickTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressPickTableView.h; path = views/AddressPickTableView.h; sourceTree = "<group>"; };
+		224443681F16149200868926 /* AddressPickTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressPickTableView.m; path = views/AddressPickTableView.m; sourceTree = "<group>"; };
+		224443691F16149200868926 /* AddressPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressPickView.h; path = views/AddressPickView.h; sourceTree = "<group>"; };
+		2244436A1F16149200868926 /* AddressPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressPickView.m; path = views/AddressPickView.m; sourceTree = "<group>"; };
+		2244436D1F1614B600868926 /* AddressPickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressPickCell.h; path = cells/AddressPickCell.h; sourceTree = "<group>"; };
+		2244436E1F1614B600868926 /* AddressPickCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressPickCell.m; path = cells/AddressPickCell.m; sourceTree = "<group>"; };
+		224443741F16156000868926 /* NSObject+ObjectMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMap.h"; sourceTree = "<group>"; };
+		224443751F16156000868926 /* NSObject+ObjectMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectMap.m"; sourceTree = "<group>"; };
+		2244437E1F16199E00868926 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		2244437F1F16199E00868926 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		224443821F161A0300868926 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		224443831F161A0300868926 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		224443841F161A0300868926 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		224443851F161A0300868926 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		224443861F161A0300868926 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		224443871F161A0300868926 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		224443881F161A0300868926 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		224443891F161A0300868926 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		2244438E1F16202300868926 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2244438F1F16202300868926 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		224443911F16209F00868926 /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		224443921F16209F00868926 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		224443941F16210300868926 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		224443951F1621E600868926 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		224443961F1621E600868926 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		22C0524D1F16256B00D99097 /* SXEditAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SXEditAddressCell.h; path = cells/SXEditAddressCell.h; sourceTree = "<group>"; };
+		22C0524E1F16256B00D99097 /* SXEditAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SXEditAddressCell.m; path = cells/SXEditAddressCell.m; sourceTree = "<group>"; };
+		22C052511F16270F00D99097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22C052541F1643BA00D99097 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		22C052551F1643BA00D99097 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		22C052561F1643BA00D99097 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		22C052571F1643BA00D99097 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		22C052581F1643BA00D99097 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		22C052591F1643BA00D99097 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		22C0525A1F1643BA00D99097 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		22C0525B1F1643BA00D99097 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224443221F16101800868926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2244431C1F16101800868926 = {
+			isa = PBXGroup;
+			children = (
+				224443941F16210300868926 /* PrefixHeader.pch */,
+				224443271F16101800868926 /* AddressPicker */,
+				224443261F16101800868926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224443261F16101800868926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224443251F16101800868926 /* AddressPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224443271F16101800868926 /* AddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				224443731F16150C00868926 /* categorys */,
+				224443541F16129C00868926 /* AddressPicker */,
+				2244433F1F16125700868926 /* Framework */,
+				2244432B1F16101800868926 /* AppDelegate.h */,
+				2244432C1F16101800868926 /* AppDelegate.m */,
+				2244432E1F16101800868926 /* ViewController.h */,
+				2244432F1F16101800868926 /* ViewController.m */,
+				224443341F16101800868926 /* Assets.xcassets */,
+				22C052501F16270F00D99097 /* Main.storyboard */,
+				224443361F16101800868926 /* LaunchScreen.storyboard */,
+				224443391F16101800868926 /* Info.plist */,
+				224443281F16101800868926 /* Supporting Files */,
+			);
+			path = AddressPicker;
+			sourceTree = "<group>";
+		};
+		224443281F16101800868926 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224443291F16101800868926 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2244433F1F16125700868926 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				22C052531F1643BA00D99097 /* TPKeyboardAvoiding */,
+				224443811F161A0300868926 /* SVProgressHUD */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		224443541F16129C00868926 /* AddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				224443661F16148B00868926 /* views */,
+				224443551F16135200868926 /* cells */,
+				224443561F16135B00868926 /* models */,
+			);
+			name = AddressPicker;
+			sourceTree = "<group>";
+		};
+		224443551F16135200868926 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				22C0524D1F16256B00D99097 /* SXEditAddressCell.h */,
+				22C0524E1F16256B00D99097 /* SXEditAddressCell.m */,
+				2244436D1F1614B600868926 /* AddressPickCell.h */,
+				2244436E1F1614B600868926 /* AddressPickCell.m */,
+				224443591F1613C400868926 /* SXMeJumpCell.h */,
+				2244435A1F1613C400868926 /* SXMeJumpCell.m */,
+				2244435B1F1613C400868926 /* SXPlainCell.h */,
+				2244435C1F1613C400868926 /* SXPlainCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		224443561F16135B00868926 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				224443631F16142800868926 /* AddrObject.h */,
+				224443641F16142800868926 /* AddrObject.m */,
+				224443601F1613EC00868926 /* Address.h */,
+				224443611F1613EC00868926 /* Address.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		224443661F16148B00868926 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				224443671F16149200868926 /* AddressPickTableView.h */,
+				224443681F16149200868926 /* AddressPickTableView.m */,
+				224443691F16149200868926 /* AddressPickView.h */,
+				2244436A1F16149200868926 /* AddressPickView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		224443731F16150C00868926 /* categorys */ = {
+			isa = PBXGroup;
+			children = (
+				224443741F16156000868926 /* NSObject+ObjectMap.h */,
+				224443751F16156000868926 /* NSObject+ObjectMap.m */,
+				2244437E1F16199E00868926 /* UIView+Common.h */,
+				2244437F1F16199E00868926 /* UIView+Common.m */,
+				2244438E1F16202300868926 /* UIView+Frame.h */,
+				2244438F1F16202300868926 /* UIView+Frame.m */,
+				224443911F16209F00868926 /* UILabel+Common.h */,
+				224443921F16209F00868926 /* UILabel+Common.m */,
+				224443951F1621E600868926 /* NSString+Common.h */,
+				224443961F1621E600868926 /* NSString+Common.m */,
+			);
+			name = categorys;
+			sourceTree = "<group>";
+		};
+		224443811F161A0300868926 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				224443821F161A0300868926 /* SVIndefiniteAnimatedView.h */,
+				224443831F161A0300868926 /* SVIndefiniteAnimatedView.m */,
+				224443841F161A0300868926 /* SVProgressHUD-Prefix.pch */,
+				224443851F161A0300868926 /* SVProgressHUD.bundle */,
+				224443861F161A0300868926 /* SVProgressHUD.h */,
+				224443871F161A0300868926 /* SVProgressHUD.m */,
+				224443881F161A0300868926 /* SVRadialGradientLayer.h */,
+				224443891F161A0300868926 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		22C052531F1643BA00D99097 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				22C052541F1643BA00D99097 /* TPKeyboardAvoidingCollectionView.h */,
+				22C052551F1643BA00D99097 /* TPKeyboardAvoidingCollectionView.m */,
+				22C052561F1643BA00D99097 /* TPKeyboardAvoidingScrollView.h */,
+				22C052571F1643BA00D99097 /* TPKeyboardAvoidingScrollView.m */,
+				22C052581F1643BA00D99097 /* TPKeyboardAvoidingTableView.h */,
+				22C052591F1643BA00D99097 /* TPKeyboardAvoidingTableView.m */,
+				22C0525A1F1643BA00D99097 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				22C0525B1F1643BA00D99097 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224443241F16101800868926 /* AddressPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2244433C1F16101800868926 /* Build configuration list for PBXNativeTarget "AddressPicker" */;
+			buildPhases = (
+				224443211F16101800868926 /* Sources */,
+				224443221F16101800868926 /* Frameworks */,
+				224443231F16101800868926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressPicker;
+			productName = AddressPicker;
+			productReference = 224443251F16101800868926 /* AddressPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2244431D1F16101800868926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "http://www.jianshu.com/u/a6249cca0aaf";
+				TargetAttributes = {
+					224443241F16101800868926 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PUZ7RZMJ49;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 224443201F16101800868926 /* Build configuration list for PBXProject "AddressPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2244431C1F16101800868926;
+			productRefGroup = 224443261F16101800868926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224443241F16101800868926 /* AddressPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224443231F16101800868926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224443381F16101800868926 /* LaunchScreen.storyboard in Resources */,
+				224443351F16101800868926 /* Assets.xcassets in Resources */,
+				2244438B1F161A0300868926 /* SVProgressHUD.bundle in Resources */,
+				22C052521F16270F00D99097 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224443211F16101800868926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C0525D1F1643BA00D99097 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				224443711F1614B600868926 /* AddressPickCell.m in Sources */,
+				224443621F1613EC00868926 /* Address.m in Sources */,
+				2244435E1F1613C400868926 /* SXMeJumpCell.m in Sources */,
+				2244436C1F16149200868926 /* AddressPickView.m in Sources */,
+				224443301F16101800868926 /* ViewController.m in Sources */,
+				22C0525F1F1643BA00D99097 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				2244432D1F16101800868926 /* AppDelegate.m in Sources */,
+				22C0524F1F16256B00D99097 /* SXEditAddressCell.m in Sources */,
+				2244438D1F161A0300868926 /* SVRadialGradientLayer.m in Sources */,
+				2244432A1F16101800868926 /* main.m in Sources */,
+				224443931F16209F00868926 /* UILabel+Common.m in Sources */,
+				22C0525C1F1643BA00D99097 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				224443971F1621E600868926 /* NSString+Common.m in Sources */,
+				224443761F16156000868926 /* NSObject+ObjectMap.m in Sources */,
+				224443651F16142800868926 /* AddrObject.m in Sources */,
+				224443901F16202300868926 /* UIView+Frame.m in Sources */,
+				2244438C1F161A0300868926 /* SVProgressHUD.m in Sources */,
+				2244438A1F161A0300868926 /* SVIndefiniteAnimatedView.m in Sources */,
+				2244436B1F16149200868926 /* AddressPickTableView.m in Sources */,
+				22C0525E1F1643BA00D99097 /* TPKeyboardAvoidingTableView.m in Sources */,
+				224443801F16199E00868926 /* UIView+Common.m in Sources */,
+				2244435F1F1613C400868926 /* SXPlainCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		224443361F16101800868926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224443371F16101800868926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		22C052501F16270F00D99097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C052511F16270F00D99097 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2244433A1F16101800868926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2244433B1F16101800868926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2244433D1F16101800868926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PUZ7RZMJ49;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = AddressPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.AddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2244433E1F16101800868926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PUZ7RZMJ49;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = AddressPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.AddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224443201F16101800868926 /* Build configuration list for PBXProject "AddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2244433A1F16101800868926 /* Debug */,
+				2244433B1F16101800868926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2244433C1F16101800868926 /* Build configuration list for PBXNativeTarget "AddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2244433D1F16101800868926 /* Debug */,
+				2244433E1F16101800868926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2244431D1F16101800868926 /* Project object */;
+}

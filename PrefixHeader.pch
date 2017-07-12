@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  AddressPicker
+//
+//  Created by Sam on 2017/7/12.
+//  Copyright © 2017年 http://www.jianshu.com/u/a6249cca0aaf. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import "NSObject+ObjectMap.h"
+#import "NSString+Common.h"
+#import "UIView+Common.h"
+#import "UILabel+Common.h"
+#import "UIView+Frame.h"
+
+#endif
+
+
+#define kScreen_Bounds [UIScreen mainScreen].bounds
+#define kScreen_Height [UIScreen mainScreen].bounds.size.height
+#define kScreen_Width [UIScreen mainScreen].bounds.size.width
+
+#endif /* PrefixHeader_pch */
